@@ -11,6 +11,8 @@ In short, this project will need to accurately assign product descriptions that 
 
 The approach used in this project, was Naïve Bayes with TF-IDF vectorization. As for the input data used, not too much pre-processing was required, aside from removing symbols, stopwords and any blank or missing entries.
 
+---
+
 ### Dataset Used
 - **Size** - The dataset consists of a collection of 50 425 entries.
 - **Data Types / Structure** - The dataset consist of a singular CSV file with two string columns. The file lacks a header row, but based off of the description, the first column contains the class name, and the second column the product description. There are four possible classes that a product can belong to
